@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+    <html lang="ca">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Reserva</title>
+            <link rel="icon" href="../img/logojpg.jpg">
+            <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+            <link rel="stylesheet" type="text/css" href="../css/reserva.css">
+            <script type="text/javascript" src="../js/reserva.js" defer></script>
+        </head>
+        <body>
+            <a href="../ca/principal.html">Inici</a>
+            <h2 id="h2_1">Reserva activitats de <span id="green">relax</span>, <span class="h2piscina">piscina</span>, <span class="orange">físiques</span> i amb <span class="violet">màquines</span></h2>
+            <table border="1">
+                <tr>
+                    <td>Hora</td>
+                    <td>Dilluns</td>
+                    <td>Dimarts</td>
+                    <td>Dimecres</td>
+                    <td>Dijous</td>
+                    <td>Divendres</td>
+                    <td>Dissabte</td>
+                </tr>
+                <!--07:00-->
+                <tr>
+                    <td>07:00</td>
+                    <td class="relax" onclick="reserva1()"> Yoga</td>
+                    <td class="piscina" onclick="reserva2()">Aquagym</td>
+                    <td class="relax" onclick="reserva3()">Yoga</td>
+                    <td class="piscina" onclick="reserva4()">Aquagym</td>
+                    <td class="relax" onclick="reserva5()">Yoga</td>
+                    <td>Tancat</td>
+                </tr>
+                <!--08:00-->
+                <tr>
+                    <td>08:00</td>
+                    <td class="relax" onclick="reserva6()">Yoga</td>
+                    <td class="piscina" onclick="reserva7()">Aquagym</td>
+                    <td class="relax" onclick="reserva8()">Yoga</td>
+                    <td class="piscina" onclick="reserva9()">Aquagym</td>
+                    <td class="relax" onclick="reserva10()">Yoga</td>
+                    <td class="piscina" onclick="reserva11()">Aquagym</td>
+                </tr>
+                <!--09:00-->
+                <tr>
+                     <td>09:00</td>
+                    <td class="maquina" onclick="reserva12()">Spinning</td>
+                    <td class="relax" onclick="reserva13()">Sauna</td>
+                    <td class="maquina" onclick="reserva14()">Spinning</td>
+                    <td class="relax" onclick="reserva15()">Sauna</td>
+                    <td class="maquina" onclick="reserva16()">Spinning</td>
+                    <td class="piscina" onclick="reserva17()">Aquagym</td>
+                </tr>
+                <!--10:00-->
+                <tr>
+                    <td>10:00</td>
+                    <td class="maquina" onclick="reserva18()">Spinning</td>
+                    <td class="relax" onclick="reserva19()">Sauna</td>
+                    <td class="maquina" onclick="reserva20()">Spinning</td>
+                    <td class="relax" onclick="reserva21()">Sauna</td>
+                    <td class="maquina" onclick="reserva22()">Spinning</td>
+                    <td class="relax" onclick="reserva23()">Sauna</td>
+                </tr>
+                <!--11:00-->
+                <tr>
+                    <td>11:00</td>
+                    <td class="maquina" onclick="reserva24()">Tonificació</td>
+                    <td class="maquina" onclick="reserva25()">Cycling</td>
+                    <td class="maquina" onclick="reserva26()">Tonificació</td>
+                    <td class="maquina" onclick="reserva27()">Cycling</td>
+                    <td class="maquina" onclick="reserva28()">Tonificació</td>
+                    <td class="relax" onclick="reserva29()">Bachata</td>
+                </tr>
+                <!--12:00-->
+                <tr>
+                    <td>12:00</td>
+                    <td class="relax" onclick="reserva30()">Solarium</td>
+                    <td class="fisic" onclick="reserva31()">Radikal</td>
+                    <td class="relax" onclick="reserva32()">Solarium</td>
+                    <td class="fisic" onclick="reserva33()">Radikal</td>
+                    <td class="relax" onclick="reserva34()">Solarium</td>
+                    <td class="maquina" onclick="reserva35()">Cycling</td>
+                </tr>
+                <!--13:00-->
+                <tr>
+                    <td>13:00</td>
+                    <td class="fisic" onclick="reserva36()">Abdominals</td>
+                    <td class="relax" onclick="reserva37()">Solarium</td>
+                    <td class="fisic" onclick="reserva38()">Abdominals</td>
+                    <td class="relax" onclick="reserva39()">Solarium</td>
+                    <td class="fisic" onclick="reserva40()">Abdominals</td>
+                    <td class="fisic" onclick="reserva41()">Radikal</td>
+                </tr>
+                <!--14:00-->
+                <tr>
+                    <td>14:00</td>
+                    <td class="relax" onclick="reserva42()">Solarium</td>
+                    <td class="fisic" onclick="reserva43()">Bodycombat</td>
+                    <td class="relax" onclick="reserva44()">Solarium</td>
+                    <td class="fisic" onclick="reserva45()">Bodycombat</td>
+                    <td class="relax" onclick="reserva46()">Solarium</td>
+                    <td class="relax" onclick="reserva47()">Solarium</td>
+                </tr>
+                <!--15:00-->
+                <tr>
+                    <td>15:00</td>
+                    <td class="fisic" onclick="reserva48()">Zumba</td>
+                    <td class="fisic" onclick="reserva49()">Bodypump</td>
+                    <td class="fisic" onclick="reserva50()">Zumba</td>
+                    <td class="fisic" onclick="reserva51()">Bodypump</td>
+                    <td class="fisic" onclick="reserva52()">Zumba</td>
+                    <td class="fisic" onclick="reserva53()">Bodycombat</td>
+                </tr>
+                <!--16:00-->
+                <tr>
+                    <td>16:00</td>
+                    <td class="relax" onclick="reserva54()">Yoga</td>
+                    <td class="piscina" onclick="reserva55()">Aquagym</td>
+                    <td class="relax" onclick="reserva56()">Bachata</td>
+                    <td class="piscina" onclick="reserva57()">Aquagym</td>
+                    <td class="relax" onclick="reserva58()">Yoga</td>
+                    <td class="fisic" onclick="reserva59()">Bodypump</td>
+                </tr>
+                <!--17:00-->
+                <tr>
+                    <td>17:00</td>
+                    <td class="relax" onclick="reserva60()">Bachata</td>
+                    <td class="piscina" onclick="reserva61()">Aquagym</td>
+                    <td class="relax" onclick="reserva62()">Yoga</td>
+                    <td class="piscina" onclick="reserva63()">Aquagym</td>
+                    <td class="relax" onclick="reserva64()">Bachata</td>
+                    <td class="piscina" onclick="reserva65()">Aquagym</td>
+                </tr>
+                <!--18:00-->
+                <tr>
+                    <td>18:00</td>
+                    <td class="maquina" onclick="reserva66()">Spinning</td>
+                    <td class="relax" onclick="reserva67()">Sauna</td>
+                    <td class="maquina" onclick="reserva68()">Spinning</td>
+                    <td class="relax" onclick="reserva69()">Sauna</td>
+                    <td class="maquina" onclick="reserva70()">Spinning</td>
+                    <td class="piscina" onclick="reserva71()">Aquagym</td>
+                </tr>
+                <!--19:00-->
+                <tr>
+                    <td>19:00</td>
+                    <td class="maquina" onclick="reserva72()">Spinning</td>
+                    <td class="relax" onclick="reserva73()">Sauna</td>
+                    <td class="maquina" onclick="reserva74()">Spinning</td>
+                    <td class="relax" onclick="reserva75()">Sauna</td>
+                    <td class="maquina" onclick="reserva76()">Spinning</td>
+                    <td class="relax" onclick="reserva77()">Sauna</td>
+                </tr>
+                <!--20:00-->
+                <tr>
+                    <td>20:00</td>
+                    <td class="maquina" onclick="reserva78()">Tonificació</td>
+                    <td class="maquina" onclick="reserva79()">Cycling</td>
+                    <td class="maquina" onclick="reserva80()">Tonificació</td>
+                    <td class="maquina" onclick="reserva81()">Cycling</td>
+                    <td class="maquina" onclick="reserva82()">Tonificació</td>
+                    <td class="relax" onclick="reserva83()">Sauna</td>
+                </tr>
+                <!--21:00-->
+                <tr>
+                    <td>21:00</td>
+                    <td class="fisic" onclick="reserva84()">Zumba</td>
+                    <td class="fisic" onclick="reserva85()">Bodypump</td>
+                    <td class="fisic" onclick="reserva86()">Zumba</td>
+                    <td class="fisic" onclick="reserva87()">Bodypump</td>
+                    <td class="fisic" onclick="reserva88()">Zumba</td>
+                    <td class="maquina" onclick="reserva89()">Cycling</td>>
+                </tr>
+                <!--22:00-->
+                <tr>
+                    <td>22:00</td>
+                    <td class="fisic" onclick="reserv90()">Abdominals</td>
+                    <td class="fisic" onclick="reserva91()">Radikal</td>
+                    <td class="fisic" onclick="reserva92()">Abdominals</td>
+                    <td class="fisic" onclick="reserva93()">Radikal</td>
+                    <td class="fisic" onclick="reserva94()">Abdominals</td>
+                    <td class="fisic" onclick="reserva95()">Bodypump</td>
+                </tr>
+                <tr>
+                    <td>23:00</td>
+                    <td>Tancat</td>
+                    <td>Tancat</td>
+                    <td>Tancat</td>
+                    <td>Tancat</td>
+                    <td>Tancat</td>
+                    <td class="fisic" onclick="reserva96()">Radikal</td>
+                </tr>
+            </table>
+            <h2 class="h2piscina" id="zpiscina">Piscina</h2>
+            <table border="1">
+                <tr>
+                    <td>Hora</td>
+                    <td>Dilluns</td>
+                    <td>Dimarts</td>
+                    <td>Dimecres</td>
+                    <td>Dijous</td>
+                    <td>Divendres</td>
+                    <td>Dissabte</td>
+                </tr>
+                <!--07:00-->
+                <tr>
+                    <td>07:00</td>
+                    <td></td>
+                    <td class="piscina" onclick="reserva2()">Aquagym</td>
+                    <td></td>
+                    <td class="piscina" onclick="reserva4()">Aquagym</td>
+                    <td></td>
+                    <td>Tancat</td>
+                </tr>
+                <!--08:00-->
+                <tr>
+                    <td>08:00</td>
+                    <td></td>
+                    <td class="piscina" onclick="reserva7()">Aquagym</td>
+                    <td></td>
+                    <td class="piscina" onclick="reserva9()">Aquagym</td>
+                    <td></td>
+                    <td class="piscina" onclick="reserva11()">Aquagym</td>
+                </tr>
+                <!--16:00-->
+                <tr>
+                    <td>16:00</td>
+                    <td></td>
+                    <td class="piscina" onclick="reserva55()">Aquagym</td>
+                    <td></td>
+                    <td class="piscina" onclick="reserva57()">Aquagym</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <!--17:00-->
+                <tr>
+                    <td>17:00</td>
+                    <td></td>
+                    <td class="piscina" onclick="reserva61()">Aquagym</td>
+                    <td></td>
+                    <td class="piscina" onclick="reserva63()">Aquagym</td>
+                    <td></td>
+                    <td class="piscina" onclick="reserva65()">Aquagym</td>
+                </tr>
+            </table>
+            <h2 id="zactivitats">Activitats <span class="orange">físiques</span> i amb <span class="violet">màquines</span></h2>
+            <table border="1">
+                <tr>
+                    <td>Hora</td>
+                    <td>Dilluns</td>
+                    <td>Dimarts</td>
+                    <td>Dimecres</td>
+                    <td>Dijous</td>
+                    <td>Divendres</td>
+                    <td>Dissabte</td>
+                </tr>
+                <!--09:00-->
+                <tr>
+                     <td>09:00</td>
+                    <td class="maquina" onclick="reserva12()">Spinning</td>
+                    <td></td>
+                    <td class="maquina" onclick="reserva14()">Spinning</td>
+                    <td></td>
+                    <td class="maquina" onclick="reserva16()">Spinning</td>
+                    <td></td>
+                </tr>
+                <!--10:00-->
+                <tr>
+                    <td>10:00</td>
+                    <td class="maquina" onclick="reserva18()">Spinning</td>
+                    <td></td>
+                    <td class="maquina" onclick="reserva20()">Spinning</td>
+                    <td></td>
+                    <td class="maquina" onclick="reserva22()">Spinning</td>
+                    <td></td>
+                </tr>
+                <!--11:00-->
+                <tr>
+                    <td>11:00</td>
+                    <td class="maquina" onclick="reserva24()">Tonificació</td>
+                    <td class="maquina" onclick="reserva25()">Cycling</td>
+                    <td class="maquina" onclick="reserva26()">Tonificació</td>
+                    <td class="maquina" onclick="reserva27()">Cycling</td>
+                    <td class="maquina" onclick="reserva28()">Tonificació</td>
+                    <td class="fisic" onclick="reserva29()">Bachata</td>
+                </tr>
+                <!--12:00-->
+                <tr>
+                    <td>12:00</td>
+                    <td></td>
+                    <td class="fisic" onclick="reserva31()">Radikal</td>
+                    <td></td>
+                    <td class="fisic" onclick="reserva33()">Radikal</td>
+                    <td></td>
+                    <td class="maquina" onclick="reserva35()">Cycling</td>
+                </tr>
+                <!--13:00-->
+                <tr>
+                    <td>13:00</td>
+                    <td class="fisic" onclick="reserva36()">Abdominals</td>
+                    <td></td>
+                    <td class="fisic" onclick="reserva38()">Abdominals</td>
+                    <td></td>
+                    <td class="fisic" onclick="reserva40()">Abdominals</td>
+                    <td class="fisic" onclick="reserva41()">Radikal</td>
+                </tr>
+                <!--14:00-->
+                <tr>
+                    <td>14:00</td>
+                    <td></td>
+                    <td class="fisic" onclick="reserva43()">Bodycombat</td>
+                    <td></td>
+                    <td class="fisic" onclick="reserva45()">Bodycombat</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <!--15:00-->
+                <tr>
+                    <td>15:00</td>
+                    <td class="fisic" onclick="reserva48()">Zumba</td>
+                    <td class="fisic" onclick="reserva49()">Bodypump</td>
+                    <td class="fisic" onclick="reserva50()">Zumba</td>
+                    <td class="fisic" onclick="reserva51()">Bodypump</td>
+                    <td class="fisic" onclick="reserva52()">Zumba</td>
+                    <td class="fisic" onclick="reserva53()">Bodycombat</td>
+                </tr>
+                <!--16:00-->
+                <tr>
+                    <td>16:00</td>
+                    <td></td>
+                    <td></td>
+                    <td class="fisic" onclick="reserva56()">Bachata</td>
+                    <td></td>
+                    <td></td>
+                    <td class="fisic" onclick="reserva59()">Bodypump</td>
+                </tr>
+                <!--17:00-->
+                <tr>
+                    <td>17:00</td>
+                    <td class="fisic" onclick="reserva60()">Bachata</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="fisic" onclick="reserva64()">Bachata</td>
+                    <td></td>
+                </tr>
+                <!--18:00-->
+                <tr>
+                    <td>18:00</td>
+                    <td class="maquina" onclick="reserva66()">Spinning</td>
+                    <td></td>
+                    <td class="maquina" onclick="reserva68()">Spinning</td>
+                    <td></td>
+                    <td class="maquina" onclick="reserva70()">Spinning</td>
+                    <td></td>
+                </tr>
+                <!--19:00-->
+                <tr>
+                    <td>19:00</td>
+                    <td class="maquina" onclick="reserva72()">Spinning</td>
+                    <td></td>
+                    <td class="maquina" onclick="reserva74()">Spinning</td>
+                    <td></td>
+                    <td class="maquina" onclick="reserva76()">Spinning</td>
+                    <td></td>
+                </tr>
+                <!--20:00-->
+                <tr>
+                    <td>20:00</td>
+                    <td class="maquina" onclick="reserva78()">Tonificació</td>
+                    <td class="maquina" onclick="reserva79()">Cycling</td>
+                    <td class="maquina" onclick="reserva80()">Tonificació</td>
+                    <td class="maquina" onclick="reserva81()">Cycling</td>
+                    <td class="maquina" onclick="reserva82()">Tonificació</td>
+                    <td></td>
+                </tr>
+                <!--21:00-->
+                <tr>
+                    <td>21:00</td>
+                    <td class="fisic" onclick="reserva84()">Zumba</td>
+                    <td class="fisic" onclick="reserva85()">Bodypump</td>
+                    <td class="fisic" onclick="reserva86()">Zumba</td>
+                    <td class="fisic" onclick="reserva87()">Bodypump</td>
+                    <td class="fisic" onclick="reserva88()">Zumba</td>
+                    <td class="maquina" onclick="reserva89()">Cycling</td>>
+                </tr>
+                <!--22:00-->
+                <tr>
+                    <td>22:00</td>
+                    <td class="fisic" onclick="reserv90()">Abdominals</td>
+                    <td class="fisic" onclick="reserva91()">Radikal</td>
+                    <td class="fisic" onclick="reserva92()">Abdominals</td>
+                    <td class="fisic" onclick="reserva93()">Radikal</td>
+                    <td class="fisic" onclick="reserva94()">Abdominals</td>
+                    <td class="fisic" onclick="reserva95()">Bodypump</td>
+                </tr>
+                <tr>
+                    <td>23:00</td>
+                    <td>Tancat</td>
+                    <td>Tancat</td>
+                    <td>Tancat</td>
+                    <td>Tancat</td>
+                    <td>Tancat</td>
+                    <td class="fisic" onclick="reserva96()">Radikal</td>
+                </tr>
+            </table>
+            <footer><span>&copy;2021-2022</span> <span id="copy">GYM ESTAMINA</span></a></footer>
+        </body>
+    </html>

@@ -1,0 +1,426 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: white;
+    min-width: 360px;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    margin: 4px 0px 0px 0px;
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;
+    width: 97%;
+    height: 50px;
+    line-height: 40px;
+    background-color: black;
+    font-weight: 900;
+    list-style: none;
+}
+
+h1 {
+    margin: 0%;
+    padding: 40px 0px;
+    text-align: center;
+    color: violet;
+    text-shadow: 0 0 5px blueviolet, 0 0 5px blueviolet, 0 0 5px blueviolet;
+}
+
+h2 {
+    margin: 0px;
+    text-align: center;
+    color: violet;
+    text-shadow: 0 0 5px blueviolet, 0 0 5px blueviolet, 0 0 5px blueviolet;
+}
+
+h3 {
+    padding: 20px 0px;
+    background-color: black;
+    color: violet;
+    text-shadow: 0 0 5px blueviolet, 0 0 5px blueviolet, 0 0 5px blueviolet;
+}
+
+h4 {
+    margin: 10px 0px 20px 0px;
+}
+
+p {
+    margin: 15px 0px;
+    font-weight: 900;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: black;
+    font-weight: 900;
+    color: gray;
+}
+
+#icona1 {
+    margin-left: 0px;
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+}
+
+#icona2 {
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    visibility: visible;
+}
+
+#idioma-dianit {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    background-color: black;
+}
+
+#catala {
+    box-shadow: 0 0 5px yellow, 0 0 5px yellow, 0 0 5px yellow;
+}
+
+#espanyol {
+    box-shadow: 0 0 5px red, 0 0 5px red, 0 0 5px red;
+}
+
+#angles {
+    box-shadow: 0 0 5px blue, 0 0 5px blue, 0 0 5px blue;
+}
+
+#dianit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 48px;
+    width: 90px;
+    border: solid;
+    border-right: solid 4px;
+    border-left: solid 4px;
+    border-radius: 50px;
+    border-color: blueviolet;
+}
+
+#boton1 {
+    display: block;
+    margin: 0px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#boton2 {
+    display: block;
+    margin: 0px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#activitats {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+#subllista {
+    margin: 0;
+    margin-left: -3px;
+    padding: 0px 0px 35px 0px;
+    height: 110px;
+    width: 100%;
+}
+
+#submenu {
+    width: 100%;
+}
+
+#zonasocis{
+    height: 200px;
+    background-image: url(../img/piscina.jpg);
+    background-size: 100vw 100vh;
+}
+
+#restaurant {
+    text-align: center;
+    background-image: url(../img/fonsblanc.jpg);
+}
+
+#menurestaurant {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#piscina{
+    background-image: url(../img/fonsblanc.jpg);
+    text-align: center;
+}
+
+#activitats1 {
+    text-align: center;
+    background-image: url(../img/fonsblanc.jpg);
+}
+
+#maquines {
+    padding: 10px 0px;
+}
+
+#fisiques {
+    padding: 10px 0px;
+}
+
+#ractivitats {
+    margin: 10px 0px 30px 0px;
+}
+
+#copy {
+    margin-left: 5px;
+    color: white;
+}
+
+.a {
+    text-decoration: none;
+    color: violet;
+    text-shadow: 0 0 5px blueviolet, 0 0 5px blueviolet, 0 0 5px blueviolet;
+}
+
+.menu-icon {
+    height: 50px;
+    cursor: pointer;
+}
+
+.flag {
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.boton {
+    height: 40px;
+    transition: background 0.2s ease;
+}
+
+.botons {
+    margin: 20px 0px;
+    padding: 10px 30px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 900;
+    border: solid;
+    border-radius: 25px;
+}
+
+.abotons {
+    color: black;
+    text-decoration: none;
+}
+
+.imgactivitats {
+    width: 100%;
+}
+
+@media (min-width:880px){
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px;
+        width: 60%;
+        visibility: visible;
+    }
+
+    nav ul {
+        height: 50px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: white;
+    }
+
+    header nav ul li ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav ul li ul {
+        display: flex;
+        flex-direction: column;
+    }
+    header nav ul li ul {
+        display: none;
+    }
+    header nav ul li ul li {
+        width: 150px;
+    }
+    header nav ul li:hover > ul{
+        display: block;
+        position: absolute;
+        top: 75px;
+        left: 71%;
+    }
+
+    #contacto {
+        margin-left: 10px;
+    }
+
+    li {
+        margin: 0px 20px;
+    }
+
+    h1 {
+        padding: 0px;
+        line-height: 400px;
+        font-size: 50px;
+    }
+
+    h2 {
+        padding: 0px;
+        font-size: 35px;
+    }
+
+    h3 {
+        margin: 0% 25% 0% 25%;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    #icona2 {
+        margin-left: 0px;
+        height: 0px;
+        width: 0px;
+        visibility: hidden;
+    }
+
+    #idioma-dianit {
+        display: flex;
+        justify-content: left;
+        padding: 30px 0px;
+        width: 265px;
+        background-color: black;
+    }
+
+    #idiomes {
+        margin-left: 20px;
+    }
+
+    #activitats {
+        margin-left: 10px;
+        width: 90px;
+        visibility: visible;
+    }
+
+    #subllista {
+        height: 50px;
+    }
+
+    #a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 12px 40px;
+    display: block;
+    }
+    
+    #zonasocis {
+        height: 85vh;
+    }
+    
+    #restaurant {
+        display: grid;
+        grid-template-columns: 100%;
+        background-size: 100% 100%;
+    }
+
+    #restaurant1 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #infor {
+        margin: 25% 10% 0% 10%;
+        width: 80%;
+    }
+
+    #menurestaurant {
+        margin: 5% 15% 0% 30%;
+        width: 50%;
+    }
+    
+    #piscina{
+        background-image: url(../img/fonsnegre.jpg);
+        background-size: 100vw;
+        color: white;
+        
+    }
+
+    #butop {
+        color: white;
+    }
+    
+    #butop:hover {
+        color: violet;
+    }
+    
+    #botop {
+        background-color: black;
+        border-color: white;
+    }
+
+    #infop {
+        margin: 5% 20% 5% 20%;
+        width: 60%;
+    }
+    
+    #activitats1 {
+        background-size: 100% 100%;
+    }
+    
+    #activitats2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .imgactivitats {
+        margin: 30px 0px;
+        height: 200px;
+        width: 400px;
+    }
+
+    .infoa {
+        margin: 0px 50px;
+        height: 100px;
+        text-align: center;
+    }
+
+    .abotons:hover {
+        color: violet;
+        text-shadow: 0 0 5px blueviolet, 0 0 5px blueviolet, 0 0 5px blueviolet;
+    }
+}

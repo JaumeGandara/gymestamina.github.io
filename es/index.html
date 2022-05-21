@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Gym Estamina</title>
+            <link rel="icon" href="../img/logojpg.jpg">
+            <link rel="stylesheet" type="text/css" href="../css/form.css">
+            <script type="text/javascript" src="../js/script_es.js" defer></script>
+        </head>
+        <body onload="inici()">
+            <header>
+                <div>
+                    <img id="logo" src="../img/logo.png" alt="logo">
+                </div>
+                <div id="idlluni">
+                    <a href="../es/index.html"><img src="../img/Flag_Spain.png" alt="Flag_Spain" class="flag"></a>
+                    <a href="../index.html"><img src="../img/Flag_Catalonia.png" alt="Flag_Catalonia" class="flag"></a>
+                    <a href="../en/index.html"><img src="../img/Flag_USA.png" alt="Flag_USA" class="flag"></a>
+                    <div id="dianit">
+                        <span class="a1"><img src="../img/sol.png" onclick="sol()" class="boton" id="boton1"></span>
+                        <span class="a2"><img src="../img/lluna.png" onclick="nit()" class="boton" id="boton2"></span>
+                    </div>
+                </div>
+            </header>
+            <form id="form1">
+                <div class="form2">
+                    <div class="form"><input type="text" id="nom" name="name" placeholder="Usuario"></div>
+                </div>
+                <div class="form2">
+                    <div class="form"><input type="password" id="contrasenya" name="password" placeholder="Contraseña"></div>
+                </div>
+                <button id="confirmar" class="form2, buto" onclick=ves()>Confirmar</button>
+                <h1>Inicio de sesion</h1>
+            </form>
+        </body>
+    </html> 
